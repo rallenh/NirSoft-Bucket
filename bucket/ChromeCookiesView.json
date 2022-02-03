@@ -1,10 +1,10 @@
 {
-    "version": "1.68",
+    "version": "1.70",
     "description": "Alternative to the standard internal cookies viewer of Google Chrome",
     "homepage": "https://www.nirsoft.net/utils/chrome_cookies_view.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/chromecookiesview.zip",
-    "hash": "41e3392c2c4889c1997fe23711d3aaf8736e166c71faf75bcd988fab6ed57464",
+    "hash": "b26c49a58d70018a5d3d44c8436a19ed37a8afd85ca41cbca90148e63ba687dc",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "ChromeCookiesView.exe",
     "shortcuts": [
