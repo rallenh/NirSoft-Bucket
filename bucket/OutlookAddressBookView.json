@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/outlookaddressbookview-x64.zip",
-            "hash": "5dd3b909e6b39cb1c4b4639b9f4c26bffec4dd984029d47046bbd0e14b667dcb"
+            "hash": "29e41ba7a22ac0525e8c7a32fdc5f5187a9a2cb4e146a7fdfa31013cf65a3e45"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/outlookaddressbookview.zip",
-            "hash": "38cb637a7737a58dbca39882fdb13bd0b92366bc50fc75fb36fc80701c46c194"
+            "hash": "e500a01fdc0a86e2906298e2b2122a7eb1520a749b8c176e5745513a92542869"
         }
     },
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
