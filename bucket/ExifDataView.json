@@ -1,10 +1,10 @@
 {
-    "version": "1.11",
+    "version": "1.15",
     "description": "Displays the Exif data stored inside .jpg image files",
     "homepage": "https://www.nirsoft.net/utils/exif_data_view.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/exifdataview.zip",
-    "hash": "f244a806e8ef8e1a85df67dfa96e40bbf4cf9196905ebcf18d4a81c91aa69261",
+    "hash": "0f45ca559056837401f3934a39db0b74ba24ecfde97dc6bc2e7211f2ae9e7e47",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "ExifDataView.exe",
     "shortcuts": [
