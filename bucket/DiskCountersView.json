@@ -1,10 +1,10 @@
 {
-    "version": "1.27",
+    "version": "1.30",
     "description": "Show disk drive read/write counters.",
     "homepage": "https://www.nirsoft.net/utils/disk_counters_view.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/diskcountersview.zip",
-    "hash": "3b56062d89de1dc141ea873fd407aed0988d8b11d6d1e45e344d38aa971419dc",
+    "hash": "916de66eaee1fed9ce1b337683dc94d3929cf12c53dd4a6d33c4db8470770c0e",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "DiskCountersView.exe",
     "shortcuts": [
