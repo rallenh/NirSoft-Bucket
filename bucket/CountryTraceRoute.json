@@ -1,10 +1,10 @@
 {
-    "version": "1.32",
+    "version": "1.33",
     "description": "Fast Traceroute utility with IP country information.",
     "homepage": "https://www.nirsoft.net/utils/country_traceroute.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/countrytraceroute.zip",
-    "hash": "df02f698aec6c332af9ee9b4b770ed6205853390588951a237af36218a2cd98c",
+    "hash": "b04d9d98834a814d79dfa39b1751da122b5c8d415fe57cdf499866c974541d5f",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "CountryTraceRoute.exe",
     "shortcuts": [
