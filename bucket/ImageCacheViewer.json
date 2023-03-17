@@ -1,10 +1,10 @@
 {
-    "version": "1.27",
+    "version": "1.30",
     "description": "Displays images stored in the cache of your Web browsers.",
     "homepage": "https://www.nirsoft.net/utils/image_cache_viewer.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/imagecacheviewer.zip",
-    "hash": "fd1fd71df0f8de322e2f4daf858c437bc8c89cc46371a64d22bcf557d745937f",
+    "hash": "7af88048f1a24306fd5d0a9004ddff921da92a2f889c8b9b2e788703cca65516",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "ImageCacheViewer.exe",
     "shortcuts": [
