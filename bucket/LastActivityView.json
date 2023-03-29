@@ -1,10 +1,10 @@
 {
-    "version": "1.36",
+    "version": "1.37",
     "description": "View the latest computer activity.",
     "homepage": "https://www.nirsoft.net/utils/computer_activity_view.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/lastactivityview.zip",
-    "hash": "ace91b961d16a4d59ef2e2545fc5c2159bec6daccc5eaff1ff689f51f9df4e82",
+    "hash": "09976fd76ae40a608f424655cda82b2be77c426c88ea95af78378b47630397bf",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "LastActivityView.exe",
     "shortcuts": [
