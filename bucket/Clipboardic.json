@@ -1,10 +1,10 @@
 {
-    "version": "1.18",
+    "version": "1.19",
     "description": "Small and simple clipboard manager.",
     "homepage": "https://www.nirsoft.net/utils/clipboardic.html",
     "license": "Freeware",
     "url": "https://www.nirsoft.net/utils/clipboardic.zip",
-    "hash": "f04ed80648d731cfafbc354b0c514f9afd888629733b4031fa14e85ca51122b4",
+    "hash": "24dbae3a287a333e0d71c7e48f2a98577b14e1d6e265d285abd1d66f78cdb880",
     "pre_install": "$manifest.persist | ForEach-Object { if (-not (Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }",
     "bin": "Clipboardic.exe",
     "shortcuts": [
